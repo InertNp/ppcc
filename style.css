@@ -117,7 +117,22 @@ button:hover {
 }
 /* For screen less than 375px */
 @media (max-width: 375px) {
-  body {
-    display: none;
+  .sub-container {
+    height: 90%;
+    width: 95%;
+    flex-direction: column;
+  }
+  .image {
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+  }
+  .main-container {
+    height: 60%;
+    width: 100%;
+  }
+  button {
+    height: 50px;
+    margin-bottom: 10px;
   }
 }
